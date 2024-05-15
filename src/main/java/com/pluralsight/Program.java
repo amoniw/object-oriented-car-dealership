@@ -9,7 +9,7 @@ package com.pluralsight;
     }
 
     public void display() {
-        while (true)
+
             System.out.println("1. List All Vehicles");
     System.out.println("2. Quit");
     System.out.println("Enter your choice:");
