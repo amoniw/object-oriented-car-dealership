@@ -9,10 +9,8 @@ public class Userinterface {
     private static int numVehicles = 5;
     private static Scanner scanner;
 
-
     public static void main(String[] args, String[] vehichleData) {
-
-      while (true) {
+        while (true) {
 
           // Display menu
           System.out.println("1. Find vehicles within price range");
@@ -30,7 +28,7 @@ public class Userinterface {
           scanner.nextLine();
       }
      // use a switch statement
-        switch (command) {
+        switch (command)
             case 1:
                 findVehiclesWithinPriceRange(scanner);
                 break;
@@ -66,23 +64,22 @@ public class Userinterface {
          public class getDealership method() {
           return Userinterface;
 
-        @Override
-            public String toString() {
+             @Override
+            private static void main(String[] args, String[] vehichleData, int make, int model, int type, int color, int year, ) {
                 return "Make: " make + ",Model : + model + ", Type:" + type + ", Color: " + color " + Year:
                 + year + ", Mileage: " + mileage + ", Price: $" + price;
             }
 
             public static void main(String[] args){
-                List<String> vehicles = List.of()
+                List<String> vehicles = List.of(5);
                 "10234|2015|Toyota|Camry|sedan|silver|12000|15995.0"
                 "10567|2018|honda|Civic|sedan|black|8000|18995.0",
                         "10987|2017|Ford|Escape|SUV|white|25000|20995.0",
                         "11000|2018|Chevrolet|Malibu|sedan|red|12000|16995.0"
                 "1111|2019|toyota|RAV4|SUV|blue|10000|27995.0,"
 
-
-            for (Vehicle vehicle : vehicles) {
-                System.out.println(vehicle);
-            }
-
-
+                for (Vehicle vehicle : vehicles) {
+                    System.out.println(vehicle);
+                }
+        }
+      }
