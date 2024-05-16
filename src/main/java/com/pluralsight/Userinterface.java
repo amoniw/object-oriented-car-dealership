@@ -10,48 +10,49 @@ public class Userinterface {
     private static Scanner scanner;
 
     public static void main(String[] args, String[] vehichleData) {
-        while (true) {
+        int command{
 
-          // Display menu
-          System.out.println("1. Find vehicles within price range");
-          System.out.println("2. Find vehicles by make/model");
-          System.out.println("3. Find by vehicles by year range");
-          System.out.println("4. Find vehicles by color");
-          System.out.println("5. Find vehicles by mileage range");
-          System.out.println("6. Find vehicles by type(car, truck, SUV,van");
-          System.out.println("7. List ALL vehicles");
-          System.out.println("8. Add a vehicle");
-          System.out.println("9. Remove a vehicle");
-          System.out.println("99. Quit");
+            // Display menu
+            System.out.println("1. Find vehicles within price range");
+            System.out.println("2. Find vehicles by make/model");
+            System.out.println("3. Find by vehicles by year range");
+            System.out.println("4. Find vehicles by color");
+            System.out.println("5. Find vehicles by mileage range");
+            System.out.println("6. Find vehicles by type(car, truck, SUV,van");
+            System.out.println("7. List ALL vehicles");
+            System.out.println("8. Add a vehicle");
+            System.out.println("9. Remove a vehicle");
+            System.out.println("99. Quit");
 
-          int command = scanner.nextInt();
-          scanner.nextLine();
-      }
-     // use a switch statement
-        switch command }
+            command = scanner.nextInt();
+            scanner.nextLine();
+        }
+        // use a switch statement
+        switch command
+    }
             case 1:
-                findVehiclesWithinPriceRange(scanner);
+                processVehiclesWithinPriceRange(scanner);
                 break;
             case 2:
-                findVehiclesByMakeModel(scanner);
+                processVehiclesByMakeModel(scanner);
                 break;
             case 3:
-                findVehiclesByYearRange(scanner);
+                processVehiclesByYearRange(scanner);
                 break;
             case 4:
-                findVehiclesByColor(scanner);
+                processVehiclesByColor(scanner);
                 break;
             case 5:
-                findVehiclesByMileageRange(scanner);
+                processVehiclesByMileageRange(scanner);
                 break;
             case 6:
-                findVehiclesByType(scanner);
+                processVehiclesByType(scanner);
                 break;
             case 7:
-                listAllVehicles(scanner);
+                processAllVehicles(scanner);
                 break;
             case 8:
-                AddAVehicle(scanner);
+                processAVehicle(scanner);
                 break;
             case 9:
                 RemoveAVehicle(scanner);
@@ -62,12 +63,12 @@ public class Userinterface {
         }
 
          public class getDealership method() {
-          return Userinterface;
+                 return Userinterface;
 
              @Override
-            private static void main(String[] args, String[] vehichleData, int make, int model, int type, int color, int year, ) {
-                return "Make: " make + ",Model : + model + ", Type:" + type + ", Color: " + color " + Year:
-                + year + ", Mileage: " + mileage + ", Price: $" + price;
+            private static void main(String[] args, String[]  {
+                return  " int make + " int model + " int type + " int color "
+                + int year + int mileage + int price;
             }
 
             public static void main(String[] args){
@@ -78,7 +79,7 @@ public class Userinterface {
            "11000|2018|Chevrolet|Malibu|sedan|red|12000|16995.0"
            "1111|2019|toyota|RAV4|SUV|blue|10000|27995.0,"
 
-                for (Vehicle vehicle : vehicles) {
+                for (Vehicle vehicle: vehicles) {
                     System.out.println(vehicle);
                 }
         }

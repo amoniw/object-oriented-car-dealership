@@ -2,7 +2,7 @@ package com.pluralsight;
 
 import java.util.Scanner;
 
- public class UserInterface {
+ public class Program {
      private Dealership dealership;
 
      public void display() {
